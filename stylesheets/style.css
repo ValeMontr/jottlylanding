@@ -1,0 +1,681 @@
+body{
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h5, h6 {
+  font-family: 'Vollkorn', Garamond, Times New Roman, serif;
+}
+
+h4{
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+.right{
+  text-align: right;
+}
+
+/*HEADER*/
+#header{
+  background-image: url('../images/sign_up_black.png');
+  color: #fff;
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  min-height: 500px;
+}
+
+#header img{
+  width: 140px;
+}
+
+/*style the <header> tag*/
+header{
+  margin-top: 15px;
+}
+
+header h1{
+  margin: 0px;
+  display: inline;
+}
+
+header nav{
+  /*margin: 0px;*/
+  display: inline;
+}
+
+header nav ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 15px;
+}
+
+header nav ul li{
+  display: inline;
+  padding: 0 20px;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color: #fff; 
+}
+
+header nav ul li a:hover{
+  color: #EC184A; /*orange*/
+}
+
+a:visited{
+  color:#fff;
+}
+
+a:selected{
+  background-color: #EC184A;
+  color:#fff;
+}
+
+#claim{
+  text-align: left;
+  margin-top: 60px;
+}
+
+#claim h1{
+  color: #fff;
+  font-weight: 400;
+  font-size: 40px;
+  font-style: italic;
+  margin-top: 30px;
+}
+
+#claim h2{
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+#header form{
+  margin: 25px 0 15px 0;
+  padding: 0;
+}
+
+#header form input{
+  display: inline;
+  width: 400px;
+  height: 20px;
+  border-radius: 2px;
+  border-color: #EC184A;
+  background: #fff;
+  opacity: .6;
+  border-style: solid;
+  border-width: 2px;
+}
+
+#header form button{
+  display: inline;
+  background: #EC184A;
+  color: #fff;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 7px;
+  margin-left: 10px;
+  text-shadow:none;
+  width: 200px;
+}
+
+/*MAIN_QUOTE*/
+#main_quote{
+  background-color: #0E8493; /*blue*/
+  /*opacity: .4;*/
+}
+
+#main_quote blockquote{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-left: 0px 
+}
+
+#main_quote blockquote p{
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+#main_quote blockquote cite{
+  color: #E5E5E5;
+  font-weight: 700;
+  font-size: 14px;
+  font-style: italic;
+}
+
+/*WHAT*/
+#what{
+  background-color: #fff;
+  text-align: center;
+}
+
+#what h4{
+  color:#191919;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+#what h4 a{
+  text-decoration: none;
+  font-style: bold;
+  font-weight: 700;
+}
+
+hr{
+  /*line-height: 150%;*/
+  width: 50%;
+  height: 1px;
+  text-align:center;
+  margin: 0 auto;
+  color: #000;
+  background-color: #000;
+  margin-bottom: 30px;
+}
+
+
+#what h5{
+  color:#0E8493;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 24px;
+  margin:10px 0 10px;
+  text-align: left;
+}
+
+#what p{
+  color:#191919;
+  text-align: justify;
+  width: 250px;
+}
+
+#what .screengrab{
+  text-align: center;
+}
+
+#what img{
+  margin-bottom: -6px;
+}
+
+/*QUOTES*/
+#quotes{
+  background-color: #E5E5E5;
+  text-align: center;
+}
+
+#quotes h4{
+  color:#191919;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+#quotes br{
+  line-height: 150%;
+  display: block;
+  position:relative;
+}
+
+#quotes p{
+  color:#191919;
+  text-align: justify;
+  width: 250px;
+}
+
+#quotes h6{
+  font-size: 14px;
+  color:#191919;
+  font-style: italic;
+  text-align: right;
+  padding: 50px 0 0 4px;
+  /*position: relative;*/
+}
+
+#quotes img{
+  text-align: left;
+  padding: 0 5px 15px 0;
+}
+
+/* OFFERS */
+#offers{
+  text-align: center;
+}
+
+#offers h4{
+  color:#191919;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 0;  
+  font-weight: 700;
+}
+
+#offers a{
+  text-decoration: none;
+  font-style: bold;
+  font-weight: 900px;  
+}
+
+#offers .box_basic, .box_premium{
+  border: solid #0E8493 3px;
+  height: 300px;
+  width: 250px;
+  padding-top: 40px;
+  margin-top: 49px;
+  margin-bottom: 30px;
+}
+
+#offers .box_medium{
+  border: solid #0E8493 5px;
+  height: 355px;
+  width: 300px; 
+  padding-top: 30px;  
+  margin-bottom: 20px;
+  float: center;
+}
+
+#offers .box_basic{
+  float: left;
+}
+
+#offers .box_premium{
+  float: right;
+}
+
+#offers .box_basic h5, .box_premium h5{
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.2;
+  text-align: justify;
+  margin-left: 25px;
+}
+
+#offers .box_basic h5 span, .box_premium, h5 span{
+  font-size: 14px;
+  text-align: justify;
+}
+
+#offers h5 span.orange_color{
+  color:#EC184A;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.2;
+  text-align: justify;
+}
+
+#offers .box_medium h5 span.orange_color{
+  color:#EC184A;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 1.2;
+  text-align: justify;
+}
+
+#offers .box_medium h5{
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 1.2;
+  text-align: justify;
+  margin-left: 30px;
+}
+
+#offers .box_medium h5 span{
+  font-size: 20px;
+  text-align: justify;
+}
+
+#offers p{
+  text-align: justify;
+  width: 200px;
+  margin-top: 60px;
+  margin-left: 25px;
+}
+
+#offers .box_medium p{
+  margin-left: 30px;
+  font-size: 16px;
+  width: 230px;
+}
+
+/*SIGN_UP*/
+#sign_up{
+  background-image: url('../images/sign_up_black.png');
+  min-height: 200px;
+}
+
+#sign_up h2{
+  color: #fff;
+  font-weight: 400;
+  font-size: 35px;
+  font-style: italic;
+  line-height: 1;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#sign_up form{
+  margin: 25px 0 15px 0;
+  padding: 0;
+}
+
+#sign_up form input{
+  display: inline;
+  width: 350px;
+  height: 20px;
+  border-radius: 2px;
+  border-color: #EC184A;
+  border-style: solid;
+  border-width: 2px;
+  opacity: .6;
+  float: left;
+}
+
+#sign_up form button{
+  display: inline;
+  background: #EC184A;
+  color: #fff;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 7px;
+  text-shadow:none;
+  width: 200px;
+  text-align: center;
+  /*margin-left: 20px;*/
+  float: right;
+}
+
+
+/*FOOTER*/
+#footer{
+  background-color: #0E8493;
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+}
+
+#footer nav{
+    display: inline;
+}
+
+#footer nav ul{
+  float: left;
+  list-style-type: none;
+  margin-top: 15px;
+}
+
+#footer nav ul li{
+  display: inline;
+  padding: 0 10px;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-right: solid;
+  border-color: #fff;
+  border-width: 1px;
+}
+
+#footer nav ul li a span.three {
+  border-color: none;
+  border-right: none;
+}
+
+/*#footer nav ul li a span .last_item{
+  display: inline;
+  padding: 0 10px;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}*/
+
+#footer nav ul li a{
+  text-decoration: none;
+  color: #fff; 
+}
+
+#footer nav ul li a:hover{
+  color: #EC184A; /*orange*/
+}
+
+a:visited{
+  color:#fff;
+}
+
+#footer p{
+  margin-top: 15px;
+  color: #fff;
+}
+
+/*RESPONSIVE DESIGN CSS*/
+img{
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /*ie8*/
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+  @media only screen and (max-width: 479px) { 
+/*adjustments to header*/
+    header h1{
+      display:block;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    header nav{
+      display:block;
+    }
+
+    header nav ul{
+      float: none; /*removed the float to the unordered list in order for the text to align in the center of the page*/
+      text-align: center; 
+    }
+
+    header nav ul li{
+      display: block; /*each item remains on their own line.*/
+    }
+
+    #header form input{
+      display: block;
+    }
+
+    #headerform button{
+      display: block;
+      padding:0;
+      margin: 0;
+    }
+
+
+/*adjustments to CLAIM div*/
+#claim{
+  margin-top: 20px;
+}
+
+#claim h1{
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+
+#claim h2{
+  line-height: 1.2;
+}
+
+#claim form button{
+  padding: 7px;
+  margin-left: 0;
+  float: left;
+}
+
+/*adjustments to OFFERS*/
+  #offers .box_medium{
+    float: center;
+    display: block;
+  }
+
+  #offers .box_basic{
+    float: center;
+    display: block;
+  }
+
+  #offers .box_premium{
+    float: center;
+    display: block;
+  }
+
+
+/*adjustments to SIGN_UP div*/
+#sign_up form input{
+  width: 50%; 
+  float: center;
+  display: block;
+}
+
+#sign_up form button{
+  text-align: center;
+  float: center;
+  display: block;
+}
+
+    #footer p{
+      text-align: left;
+      padding: 0;  
+      margin: 0;  
+    }
+
+    #footer nav{
+      text-align: left;  
+      padding: 0; 
+      margin: 0;  
+    }
+  } /*end of the media query*/
+
+
+/* #Tablet (Portrait)
+================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px){
+
+    #offers .box_medium{
+    float: center;
+    display: block;
+    -ms-transform: scale(.8,.8); /* IE 9 */
+    -webkit-transform: scale(.8,.8); /* Chrome, Safari, Opera */
+    transform: scale(.8,.8);
+  }
+
+  #offers .box_basic{
+    float: center;
+    display: block;
+    -ms-transform: scale(.8,.8); /* IE 9 */
+    -webkit-transform: scale(.8,.8); /* Chrome, Safari, Opera */
+    transform: scale(.8,.8);
+  }
+
+  #offers .box_premium{
+    float: center;
+    display: block;
+    -ms-transform: scale(.8,.8); /* IE 9 */
+    -webkit-transform: scale(.8,.8); /* Chrome, Safari, Opera */
+    transform: scale(.8,.8);
+  }
+
+#sign_up form input{
+  display: block;
+  float: center;
+}
+
+#sign_up form button{
+  float: center;
+  display: block;
+}
+
+#footer p{
+       text-align: left;  
+      padding: 0; 
+      margin: 0; 
+    }
+
+    #footer nav{
+       text-align: left;  
+      padding: 0; 
+      margin: 0;      
+    }
+
+} /*end design for tablet*/
+
+
+/* #Mobile (Landscape)
+================================================== */
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+          #offers .box_medium{
+    float: center;
+    display: block;
+    -ms-transform: scale(.8,.8); /* IE 9 */
+    -webkit-transform: scale(.8,.8); /* Chrome, Safari, Opera */
+    transform: scale(.8,.8);
+  }
+
+  #offers .box_basic{
+    float: center;
+    display: block;
+    -ms-transform: scale(.8,.8); /* IE 9 */
+    -webkit-transform: scale(.8,.8); /* Chrome, Safari, Opera */
+    transform: scale(.8,.8);
+  }
+
+  #offers .box_premium{
+    float: center;
+    display: block;
+    -ms-transform: scale(.8,.8); /* IE 9 */
+    -webkit-transform: scale(.8,.8); /* Chrome, Safari, Opera */
+    transform: scale(.8,.8);
+  }
+
+    #sign_up form input{
+      display: block;
+    }
+
+    #sign_up form button{
+      text-align: center;
+      float: left;
+      display: block;
+    }
+
+#footer p{
+       text-align: left;  
+      padding: 0; 
+      margin: 0;     }
+
+    #footer nav{
+       text-align: left;  
+      padding: 0; 
+      margin: 0;      
+    }
+
+}
+    } /*width 480px*/
+
+
+
+
+
